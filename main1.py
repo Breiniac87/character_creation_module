@@ -1,25 +1,10 @@
 from random import randint
-from graphic_arts.start_game_banner import run_screensaver
+
 
 
 DEFAULT_ATTACK = 5
 DEFAULT_DEFENCE = 10
 DEFAULT_STAMINA = 80
-
-
-class Character:
-
-
-
-class Warrior(Character):
-
-
-
-class Healer(Character):
-
-
-
-class Mage(Character):
 
 
 
@@ -110,7 +95,7 @@ def choice_char_class():
 
 
 if __name__ == '__main__':
-    run_screensaver()
+
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name = input('...назови себя: ')
